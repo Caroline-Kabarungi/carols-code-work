@@ -1,29 +1,28 @@
 fun main(){
-    greetings( "caroline")
-    modulus(30, 7)
-    sum(13, 34, 24, 11)
-    interesting()
+   var z= add(40,30)
+    println(z)
+number1()
+    number2()
 }
-
-fun greetings(name:String){
-    println("Hello "+ name)
-
+fun add(y: Int, x: Int): Int{
+  var sum =y+x
+    return sum
 
 }
-fun modulus(a: Int, b: Int):Int{
-   var  modulus = a%b
-    println(modulus)
+fun number1(){
+    var w=modulus(50, 60)
+    println(w)
+}
+fun modulus(d: Int, v: Int): Int{
+    var modulus= d%v
     return modulus
 }
-fun sum(a: Int, b: Int, c: Int, d: Int): Int{
-    var sum = a+b+c+d
-        println(sum)
-    return sum
-    }
-fun interesting(): String {
-    var interesting = "i love my life"
-    println(interesting)
-    return interesting
-
+fun number2(){
+    var e=product(22,44)
+    println(e)
+}
+fun product(r: Int, o: Int):Int{
+    var product= r/o
+    return product
 
 }
