@@ -22,7 +22,11 @@ fun number2(){
     println(e)
 }
 fun multiplication(r: Int, o: Int):Int{
+ Wakhungu
+    var items= r/o
+    return items
+
     var product= r/o
-    return product
+    return product main
 
 }
