@@ -21,8 +21,8 @@ fun number2(){
     var e=product(22,44)
     println(e)
 }
-fun product(r: Int, o: Int):Int{
-    var product= r/o
-    return product
+fun multiplication(r: Int, o: Int):Int{
+    var items= r/o
+    return items
 
 }
