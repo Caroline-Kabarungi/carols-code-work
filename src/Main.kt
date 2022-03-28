@@ -13,7 +13,7 @@ fun number1(){
     var w=modulus(50, 60)
     println(w)
 }
-fun modulus(d: Int, v: Int): Int{
+fun reminder(d: Int, v: Int): Int{
     var modulus= d%v
     return modulus
 }
@@ -22,7 +22,11 @@ fun number2(){
     println(e)
 }
 fun multiplication(r: Int, o: Int):Int{
+ Wakhungu
     var items= r/o
     return items
+
+    var product= r/o
+    return product main
 
 }
