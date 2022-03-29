@@ -13,7 +13,7 @@ fun number1(){
     var w=modulus(50, 60)
     println(w)
 }
-fun reminder(d: Int, v: Int): Int{
+fun pdddddd(d: Int, v: Int): Int{
     var modulus= d%v
     return modulus
 }
