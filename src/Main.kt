@@ -18,7 +18,7 @@ fun reminder(d: Int, v: Int): Int{
     return modulus
 }
 fun figures2(){
-    var e=numbers(22,44)
+    var e=numbers(20,44)
     println(e)
 }
 fun multiplication(r: Int, o: Int):Int{
