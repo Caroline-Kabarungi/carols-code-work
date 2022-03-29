@@ -1,16 +1,16 @@
 fun main(){
-   var z= add(40,30)
+   var z= add(67,83)
     println(z)
 number1()
     number2()
 }
-fun add(y: Int, x: Int): Int{
-  var sum =y+x
+fun add(q: Int, x: Int): Int{
+  var sum =q+x
     return sum
 
 }
 fun number1(){
-    var w=modulus(50, 60)
+    var w=modulus(78, 67)
     println(w)
 }
 fun reminder(d: Int, v: Int): Int{
@@ -18,15 +18,15 @@ fun reminder(d: Int, v: Int): Int{
     return modulus
 }
 fun figures2(){
-    var e=numbers(22,44)
+    var e=numbers(58,78)
     println(e)
 }
-fun multiplication(r: Int, o: Int):Int{
+fun multiplication(t: Int, o: Int):Int{
  Wakhungu
-    var items= r/o
+    var items= t/o
     return items
 
-    var product= r/o
+    var product= t/o
     return product main
 
 }
